@@ -180,6 +180,16 @@ export default function LeadsTable({ data }: IProps) {
         </Button>
       </div>
 
+      <div className="flex justify-end mb-4">
+        <Button
+          type="primary"
+          onClick={() => router.push('/leads/new')}
+          className="sm:w-auto"
+        >
+          Add New Lead
+        </Button>
+      </div>
+
       <Table
         rowKey="id"
         loading={loading}
