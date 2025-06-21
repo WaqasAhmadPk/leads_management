@@ -10,6 +10,7 @@
 ## Getting Started
 ```bash
 cp .env.example .env
+npm run db:init
 npm install
 npm run start:dev
 ```
