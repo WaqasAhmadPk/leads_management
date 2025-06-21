@@ -1,7 +1,0 @@
-{
-  "/leads/page": "app/leads/page.js",
-  "/leads/new/page": "app/leads/new/page.js",
-  "/leads/[id]/edit/page": "app/leads/[id]/edit/page.js",
-  "/page": "app/page.js",
-  "/leads/[id]/page": "app/leads/[id]/page.js"
-}
